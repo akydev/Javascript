@@ -1,0 +1,33 @@
+
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+strong{
+    font-size: 68px;
+}
+span{
+    font-size: 68px;
+    font-weight: 800;
+}
+p{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.card{
+    width: 350px;
+    background-color: whitesmoke;
+}
+.yellow{
+    border-bottom: 4px solid yellow;
+}
+
+.green{
+    border-bottom: 4px solid green;
+}
+
+.violet{
+    border-bottom: 4px solid violet;
+}

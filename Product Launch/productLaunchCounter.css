@@ -1,0 +1,60 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kalam:wght@300;400;700&family=Pacifico&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Gruppo&family=Kalam:wght@300;400;700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+
+
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 32px 0px;
+}
+
+.img-bg{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 76px;
+}
+
+.product-image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+.product-info {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+.counter {
+            background-color: #e9ecef;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+.counter h4 {
+            margin-bottom: 20px;
+        }
+
+span{
+    text-transform: capitalize;
+    /* font-family: 'Black+Ops+One'; */
+    font-size: 32px;
+    font-family: Gruppo;
+    font-weight: 900;
+}
+.btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+.btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+    

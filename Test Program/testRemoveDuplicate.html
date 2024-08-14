@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Duplicate Value</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Remove Duplicate</h1>
+    <h3 style="text-align: center;">Check Console</h3>
+    <script>
+        const ArrayData = [2,3,4,5,6,6];
+
+        const Unique = ArrayData.reduce(function(pre,curr){
+            if(!pre.includes(curr)){
+                pre.push(curr);
+            }
+            return pre;
+        },[]);
+        console.log(Unique);
+    </script>
+</body>
+</html>
