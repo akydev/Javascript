@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Document</title>
+</head>
+<body>
+    <h3>String Example</h3>
+    <h5>Featch first character of First Name And Middle Name And Featch all character of Last Name.</h5>
+    <script>
+        let fullName = "Jhon henry Washington"
+
+        let spaceInString = fullName.indexOf(' ', fullName.indexOf(' ')+1);
+
+        let shortName = `${fullName.at(0)}.${fullName.substr(fullName.indexOf(' ')+1,1)}.${fullName.substr(spaceInString+1)}`
+
+        console.log(shortName);
+    </script>
+</body>
+</html>

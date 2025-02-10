@@ -1,0 +1,22 @@
+body{
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.form-text{
+    color: #ffffff;
+}
+button{
+    border: none;
+    width: 150px;
+    height: 36px;
+    color: #ffffff;
+    background-color: tomato;
+    text-transform: uppercase;
+}

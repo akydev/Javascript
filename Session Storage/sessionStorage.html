@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session storage Document</title>
+</head>
+<body>
+    <input type="text" id="fTxt" placeholder="Frist Name" name="fname" />
+    <input type="text" id="lTxt" placeholder="Last Name" name="lname" />
+    <button type="submit"  onclick="sessionStorageFun()">Submit</button>
+
+    <script>
+        function sessionStorageFun(){
+        let sessionData = {
+            fName: document.getElementById("fTxt").value,
+            lName: document.getElementById("lTxt").value
+        };
+            sessionStorage.setItem("name",JSON.stringify(sessionData));
+            getData();
+        };
+
+        function getData(){
+            let data = sessionStorage.getItem("name")
+            let newData = JSON.parse(data);
+            console.log(newData);
+        };
+    </script>
+
+</body>
+</html>

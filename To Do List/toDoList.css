@@ -1,0 +1,11 @@
+body{
+    background-color: #0000ff;
+}
+h1{
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+}
+.btnclr{
+    width: 200px;
+}

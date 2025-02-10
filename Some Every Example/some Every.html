@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Every Document</title>
+</head>
+<body>
+<h2>Check Console</h2>
+    <script>
+
+        let abc= [-4,-5,-6,-7,-2];
+
+
+        let p = abc.some(function(v,index){
+
+            return v<0;
+
+        });
+
+        console.log(p);
+
+
+        let as= [-4,5,6,-7,-2];
+
+
+let q = as.every(function(v,index){
+
+    return v>0;
+
+});
+
+console.log(q);
+
+
+    </script>
+    
+</body>
+</html>

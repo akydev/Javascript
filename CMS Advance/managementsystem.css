@@ -1,0 +1,38 @@
+.drop-box{
+    border: 1px solid black;
+    padding: 200px;
+}
+
+image{
+    max-width: 100%;
+}
+.textCenter{
+text-align: center;
+text-transform: uppercase;
+}
+.section-product{
+    padding-top: 56px;
+}
+.card{
+    width: 25.5rem;
+    margin-bottom: 42px;
+}
+.cart{
+    text-decoration: none;
+    background-color: #0000ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.price_left{
+    text-align: left;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.price_right{
+    text-align: right;
+    display: inline-block;
+
+}
